@@ -1356,6 +1356,38 @@ export const tools: Tool[] = [
     alternatives: ["shadcn-ui", "cursor"],
     isFeatured: false,
   },
+  {
+    slug: "roblox-gui-maker",
+    name: "Roblox GUI Maker",
+    tagline: "AI Roblox Studio GUI planner with Lua export",
+    description:
+      "Roblox GUI Maker helps creators draft Roblox Studio ScreenGui layouts from prompts. It is useful for planning shops, HUDs, inventories, reward panels, obby UI, and mobile-friendly interfaces before wiring real game logic.",
+    category: "ui",
+    url: "https://robloxguimaker.dev/",
+    pricing: "free",
+    startingPrice: null,
+    features: [
+      "Prompt-to-GUI planning",
+      "ScreenGui component hierarchy",
+      "Lua starter code export",
+      "JSON blueprint",
+      "Mobile and desktop preview",
+      "Roblox UI examples",
+    ],
+    tags: ["roblox", "lua", "ui", "ai", "game-dev"],
+    pros: [
+      "Reduces blank-page friction for Roblox UI planning",
+      "Includes Lua starter code and structured handoff notes",
+      "Free browser-based workflow",
+    ],
+    cons: [
+      "Starter output still needs Roblox Studio review",
+      "Focused on GUI planning rather than full game logic",
+      "Underlying model is not disclosed",
+    ],
+    alternatives: ["v0-dev", "uizard", "figma"],
+    isFeatured: false,
+  },
 
   // ─── CMS & CONTENT ────────────────────────────────────────
   {
