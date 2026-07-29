@@ -1423,6 +1423,38 @@ export const tools: Tool[] = [
     isFeatured: false,
   },
   {
+    slug: "payload-components",
+    name: "Payload Components",
+    tagline: "Typed Payload CMS blocks, wired into your project",
+    description:
+      "Payload Components is an MIT registry and CLI for installing reusable blocks into Payload v3 and Next.js 15 or 16 projects. It adds reviewable source and automates Pages, RenderBlocks, generated types, and admin import-map wiring.",
+    category: "cms",
+    url: "https://www.payload-components.xyz",
+    pricing: "open-source",
+    startingPrice: null,
+    features: [
+      "67 reusable Payload CMS components",
+      "Typed editor fields",
+      "Source-based installation",
+      "Automated Pages and RenderBlocks wiring",
+      "Payload type generation",
+      "Admin import-map regeneration",
+    ],
+    tags: ["payload", "cms", "next.js", "typescript", "open-source"],
+    pros: [
+      "Eliminates repetitive block wiring",
+      "Installs client-owned source as a reviewable git diff",
+      "MIT licensed and community maintained",
+    ],
+    cons: [
+      "Focused on Payload v3 projects",
+      "Requires Next.js 15 or 16",
+      "Catalog components still need project-specific styling review",
+    ],
+    alternatives: ["payload", "shadcn-ui"],
+    isFeatured: false,
+  },
+  {
     slug: "contentful",
     name: "Contentful",
     tagline: "Enterprise headless CMS",
