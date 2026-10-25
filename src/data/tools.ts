@@ -935,6 +935,36 @@ export const tools: Tool[] = [
 
   // ─── AI & MACHINE LEARNING ─────────────────────────────────
   {
+    slug: "agent-qa",
+    name: "agent-qa",
+    tagline: "Web and mobile QA with persistent memory",
+    description:
+      "agent-qa runs natural-language tests across web, Android, and iOS through a CLI or MCP server. Its persistent memory engine retains reviewable knowledge, and validated lessons improve future test runs. The local package is free to use under FSL-1.1-ALv2; configured model access is separate.",
+    category: "ai",
+    url: "https://vostride.com",
+    pricing: "free",
+    startingPrice: null,
+    features: [
+      "Natural-language web, Android, and iOS tests",
+      "Persistent, reviewable memory",
+      "Self-improvement through validated lessons",
+      "CLI and MCP server interfaces",
+      "Skills for test authoring, debugging, and triage",
+    ],
+    tags: ["ai", "testing", "qa", "mcp", "automation"],
+    pros: [
+      "Reusable test knowledge across runs",
+      "Validates lessons before retaining them",
+      "Integrates with coding agents through MCP and skills",
+    ],
+    cons: [
+      "Requires Node.js 24+ and configured model access",
+      "Model-provider costs and mobile-device setup are separate",
+    ],
+    alternatives: [],
+    isFeatured: false,
+  },
+  {
     slug: "openai-api",
     name: "OpenAI API",
     tagline: "GPT-4, DALL-E, Whisper, and more via API",
